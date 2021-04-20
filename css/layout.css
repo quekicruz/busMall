@@ -1,0 +1,29 @@
+#header {
+  display: flex;
+}
+
+#aside {
+  display: flex;
+}
+
+#productchoices {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 5px;
+  border
+}
+
+
+#selecttext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+
+#busmalldescription {
+  margin-top: 5%;
+  text-align: center;
+}
