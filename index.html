@@ -4,19 +4,20 @@
 
     <title>BusMall</title>
     <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="module.css">
-    <link rel="stylesheet" href="themes.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/module.css">
+    <link rel="stylesheet" href="css/themes.css">
 
   </head>
   <body> 
-    
+
     <header id="header">
-      <img src="https://via.placeholder.com/300x45?">
-      <h1>BusMall: A Fun Way To Shop</h1>
+      <img src="https://via.placeholder.com/150x50?">
+      <h1>BusMall</h1>
     </header>
+
     <main> 
       
       <section id="aside"> 
@@ -43,6 +44,7 @@
 
 
       <section id="productchoices"> 
+        <div="allImages"
         
         <div id="firstproduct">
           <img id="first_product" src="img/pen.jpg" alt="Product">
@@ -52,23 +54,30 @@
           <img id="second_product" src="img/bathroom.jpg" alt="Product">
         </div>
 
-        <div id="thridproduct">
+        <div id="thirdproduct">
           <img id="third_product" src="img/boots.jpg" alt="Product">
         </div>
 
+      </div>
+
       </section>
-      
+
       <section id="busmalldescription"> 
         <p>Welcome to BusMall! You and a few others have been selected as part of research cohort to optimize our product effieincy. Now you're probably wondering what is BusMall? Well we are  a new cataloge that offers bus riders a variety of products that you can purchase in span of your bus commute!</p>
       </section>
+
+
+      <canvas id="productChart" width="400" height="400"></canvas>
+      
       
     </main>
     
     <footer>
-      <script src="app.js"></script>
       <div>
       </div>
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.1.1/dist/chart.min.js"></script>
+    <script src="app.js"></script>
   </body>
   </html>

@@ -1,0 +1,40 @@
+body {
+  background-color:  #88bdbc;
+  font-style: white;
+}
+
+header img {
+  border: solid floralwhite 1px;
+}
+
+header {
+  border-bottom: solid floralwhite 2px;
+}
+
+
+#aside {
+  border: solid floralwhite 2px;
+}
+
+#selecttext {
+  border: solid floralwhite 2px;
+  text-align: center;
+}
+
+#firstproduct {
+  border: solid floralwhite 1px;
+}
+
+#secondproduct {
+  border: solid floralwhite 1px;
+  
+}
+
+#thirdproduct {
+  border: solid floralwhite 1px;
+}
+
+#productchoices {
+  border: solid floralwhite 2px;
+}
+
