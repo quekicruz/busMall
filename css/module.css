@@ -1,1 +1,25 @@
+body * {
+  margin: 5px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#allImages {
+  display: flex;
+}
+
+main img {
+  width: 300px;
+  display: flex;
+}
 
