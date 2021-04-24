@@ -1,12 +1,103 @@
-main {
+#allImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows:  */
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#productImages {
+  display: flex;
+  gap: 40px;
+
+}
+
+#productImages p {
+  text-align: center;
+  font-style: uppercase;
+
+}
+
+#selecttext {
+  color: floralwhite;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 150%;
+}
+
+#productselection h2 {
+  text-align: center;
+}
+
+#busmalldescription {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: solid floralwhite 2px;
+}
+
+#busmalldescription p {
+  text-align: center;
+  font-size: 150%;
+  color: floralwhite ;
+}
+
+
+
+#aside ul {
+  color: floralwhite;
+  font-size: 120%;
+}
+
+#aside li {
+  color: floralwhite;
+  font-size: 100%;
+}
+
+#header h1 {
+  font-size: 200%;
+  color: floralwhite;
+}
+
+
+/* #firstproduct {
+  float:left; 
+  width:25%;
+  height:auto;
+  border-radius: 5%;
+}
+
+#secondproduct{
+  float:left; 
+  width:50%;
+  height:50%;
+  border-radius: 5%;
+}
+
+#thirdproduct{
+  float:right;
+  width:25%;
+  height:50%; */
+  /* border-radius: 5%; */
+
+
+
+
+
+
+
+
+
+
+
+/* main {
   display: grid;
   grid-template-rows: 1fr 3fr 1fr 3fr;
   grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 
 #aside {
-  grid-row: 1 / 5;
-  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  grid-column: 1 / 1;
 }
 
 #selecttext {
@@ -22,12 +113,12 @@ main {
 
 #secondproduct {
   grid-row: 2 / 3;
-  grid-column: 3 / 4;
+  grid-column: 3 / -4;
 }
 
 #thirdproduct {
   grid-row: 2 / 3;
-  grid-column: 4 / 5;
+  grid-column: 4 / -5;
 }
 
  #busmalldescription {
@@ -37,12 +128,15 @@ main {
 
 
 #productchoices {
-  grid-template-columns: 2 / 5;
-  grid-template-rows: 3/ 5;
-  width: 100%;
-}
+  grid-column-start: 2;
+  grid-column-end: -4;
+  /* grid-template-columns: 2 / 5;
+  grid-template-rows: 3/ 5; */
+  /* width: 100%;
+  display: inline;
+} */
 
 /* #productChart {
   grid-template-columns: 3 / 5;
   grid-template-rows: 3/ 4;
-} */
+/* } */ 
