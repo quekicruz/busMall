@@ -12,8 +12,11 @@ header {
 }
 
 
+
 #aside {
   border: solid floralwhite 2px;
+  color: aliceblue;
+  
 }
 
 #selecttext {
@@ -21,18 +24,38 @@ header {
   text-align: center;
 }
 
-#firstproduct {
+#firstproduct img {
   border: solid floralwhite 1px;
+  border-radius: 25%;
 }
 
-#secondproduct {
+#secondproduct img {
   border: solid floralwhite 1px;
+  border-radius: 25%;
   
 }
 
-#thirdproduct {
+#thirdproduct img {
   border: solid floralwhite 1px;
+  border-radius: 25%;
 }
+
+#firstproduct p {
+  color: floralwhite;
+  font-size: 110%
+  ;
+}
+
+#secondproduct p {
+  color: floralwhite;
+  font-size: 110%
+}
+
+#thirdproduct p {
+  color: floralwhite;
+  font-size: 110%
+}
+
 
 #productchoices {
   border: solid floralwhite 2px;
